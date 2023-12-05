@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIGA SMK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&display=swap');
+
+    body {
+        font-family: roboto;
+    }
+
+    .hero {
+        background-color: #f0f2ff;
+    }
+
+    .deskripsi {
+        font-family: DM Sans;
+    }
+
+    .badge {
+        position: relative;
+        top: -200px;
+        left: 20px;
+    }
+</style>
+
+
+<body>
+
+    <header>
+        <nav class="bg-white">
+            <ul class="inline-flex ml-52">
+                <img class="mt-2" src="/assets/logo-ligasmk-dark.png" alt="">
+                <li class="menu ml-96 mt-2"><a href="">Home <img class="w-4 inline-flex"
+                            src="assets/icon-arrow-bottom.svg" alt=""></a>
+                <li class="menu ml-9 mt-2"><a href="">About us <img class="w-4 inline-flex"
+                            src="assets/icon-arrow-bottom.svg" alt=""></a>
+                <li class="menu ml-9 mt-2"><a href="">Kelas <img class="w-4 inline-flex"
+                            src="assets/icon-arrow-bottom.svg" alt=""></a>
+                </li>
+                <li class="menu ml-9 mt-2"><a href="">Blog <img class="w-4 inline-flex"
+                            src="assets/icon-arrow-bottom.svg" alt=""></a>
+                </li>
+                <li class="menu ml-9 mt-2"><a href="">Kontak</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero h-min -mt-1">
+        <div class="container inline-flex">
+            <div class="judul ml-40">
+                <h1 class="mr-5 mt-40 text-6xl mb-3 leading-1 w-96">Bergabunglah dengan jutaan <br> orang dan <br>
+                    belajar
+                    hal
+                    baru
+                </h1>
+                <p class="deskripsi text-slate-400 mb-5">Mengubah kehidupan, bisnis, dan bangsa melalui <br>
+                    transformasi talenta
+                    dibidang
+                    teknologi digital.</p>
+                <button class="bg-blue-700 text-white w-60 h-10 mb-40">Mulai belajar <img class="w-7 inline-flex ml-10"
+                        src="/assets/right-arrow.png" alt=""></button>
+            </div>
+            <img class="w-96 ml-96 h-5/6 mt-20 mb-20" src="assets/shape-diagram.png" alt="">
+        </div>
+    </section>
+
+    <section class="bg-yellow-400 inline-flex min-w-full h-36">
+        <div class="inline-flex mt-10 ml-10">
+            <div class="membangunkarir ml-44 inline-flex">
+                <img class="w-20 h-14" src="/assets/icon-online-education.svg" alt="">
+                <div class="mt-3">
+                    <h1>Membangun Karir</h1>
+                    <p class="deskripsi">semua yang butuh kerja</p>
+                </div>
+            </div>
+            <div class="materibelajar ml-28 inline-flex">
+                <img class="w-20 h-14" src="/assets/icon-globe-handphone.svg" alt="">
+                <div class="mt-3">
+                    <h1>Cari Materi Belajar</h1>
+                    <p class="deskripsi">seberapa pengetahuan kamu</p>
+                </div>
+            </div>
+            <div class="kuasaiskill ml-28 inline-flex">
+                <img class="w-20 h-14" src="/assets/icon-online-education-laptop.svg" alt="">
+                <div class="mt-3 ml-4">
+                    <h1>Kuasai Skill Baru</h1>
+                    <p class="deskripsi">semua yang butuh kerja</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-200 h-auto">
+        <div class="ml-40">
+            <div class="inline-flex mt-5">
+                <h1 class="text-3xl">Pembelajaran populer</h1>
+                <a href="">
+                    <p class="bg-white ml-80 w-20">Javascript</p>
+                </a>
+                <a href="">
+                    <p class="text-slate-500 ml-10">Python</p>
+                </a>
+                <a href="">
+                    <p class="text-slate-500 ml-10">Web Development</p>
+                </a>
+                <a href="">
+                    <p class="text-slate-500 ml-10">Art & Design</p>
+                </a>
+                <a href="">
+                    <p class="text-slate-500 ml-10">Business</p>
+                </a>
+            </div>
+
+            <!-- start card -->
+            <div class="card mt-20 mb-40">
+                <section class="grid grid-cols-4">
+                    <div class="card1 max-w-max bg-white">
+                        <img src="assets/course-1.png" alt="">
+                        <img class="badge" src="/assets/new-orange.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card1 max-w-max bg-white">
+                        <img src="assets/course-2.png" alt="">
+                        <img class="badge" src="/assets/new-old-blue.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card1 max-w-max bg-white">
+                        <img src="assets/course-3.png" alt="">
+                        <img class="badge" src="/assets/new-pink.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card1 max-w-max bg-white">
+                        <img src="assets/course-4.png" alt="">
+                        <img class="badge" src="/assets/new-lightblue.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- card baris kedua -->
+                <section class="grid grid-cols-4 mt-10">
+                    <div class="card2 max-w-max bg-white">
+                        <img src="assets/course-5.png" alt="">
+                        <img class="badge" src="/assets/new-orange.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card2 max-w-max bg-white">
+                        <img src="assets/course-6.png" alt="">
+                        <img class="badge" src="/assets/new-old-blue.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card2 max-w-max bg-white">
+                        <img src="assets/course-7.png" alt="">
+                        <img class="badge" src="/assets/new-pink.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card2 max-w-max bg-white">
+                        <img src="assets/course-8.png" alt="">
+                        <img class="badge" src="/assets/new-lightblue.png" alt="">
+                        <div class=" ml-5">
+                            <p class="text-violet-600">Alien Mask</p>
+                            <h1>Why Learn Intermediate <br> SQL for Marketers?</h1>
+                            <div class="icon text-gray-500 mt-5 inline-flex">
+                                <img src="/assets/icon-hamburger.svg" alt="">
+                                <p class="ml-2">Beginner</p>
+                                <img class="ml-8" src="/assets/icon-copy.svg" alt="">
+                                <p class="ml-2">3 Lesson</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div><!-- end card -->
+
+        </div>
+    </section>
+
+    <!-- start dapatkan membership -->
+    <section class="bg-orange-100">
+        <div class="mt-10 inline-flex ml-80">
+            <img class="w-32" src="/assets/membership-image.png" alt="">
+            <h1 class="text-2xl ml-14 mt-5">Dapatkan membership Pro <br> GRATIS untuk kelas kamu.</h1>
+            <a href="">
+                <div class="button bg-blue-700 h-14 ml-20 mt-5 rounded w-48">
+                    <button class="mt-5 text-white ml-6">Lihat semua kelas</button>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- end dapatkan membership -->
+
+    <!-- start kategori populer -->
+    <section class="bg-slate-100 -mt-20">
+        <div class="text-center mt-20">
+            <h1 class="text-3xl">kategori populer</h1>
+        </div>
+        <section class="ml-44">
+            <div class="grid grid-cols-4 mt-10">
+                <!-- Kimia -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-chemical.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Kimia</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Kimia -->
+                <!-- managemen -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-calendar.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Managemen</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end managemen -->
+                <!-- seni budaya -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-pencil-ruler.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Seni budaya</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end seni budaya -->
+                <!-- bisnis -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-briefcase.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Bisnis</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end bisnis -->
+            </div>
+        </section>
+
+        <section class="ml-44">
+            <div class="grid grid-cols-4 mt-10">
+                <!-- Astrologi -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-science.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Astrologi</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Astrologi -->
+                <!-- SEO -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-rocket.png" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">SEO</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end SEO -->
+                <!-- Kosmologi -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-space.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Kosmologi</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Kosmologi -->
+                <!-- biologi -->
+                <div class="kategori bg-white w-60 -ml-10">
+                    <div class="ml-5 inline-flex">
+                        <div class="gambar bg-cyan-100 rounded-3xl w-14 mt-5">
+                            <img class="ml-2.5" src="assets/icon-microscope.svg" alt="">
+                        </div>
+                        <div class="deskripsi ml-5 mt-5">
+                            <h1 class="text-xl">Biologi</h1>
+                            <p class="text-slate-600">2 kelas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end biologi -->
+            </div>
+        </section>
+
+        <div class="text-center mt-10">
+            <button class="text-violet-600 inline-flex">Explore All Course <img class="ml-5 mt-1"
+                    src="/assets/icon-double-next.svg" alt=""></button>
+        </div>
+    </section>
+</body>
+
+</html>
